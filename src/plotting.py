@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from statsmodels.tsa.seasonal import seasonal_decompose
 
-# Configuração de estilo para fundo escuro
+# Setting the background style to dark_background
 plt.style.use("dark_background")
 
 def export_figure(filename: str) -> None:
